@@ -1,0 +1,70 @@
+Part: mux_capelet, revision A2
+--------------------------------
+
+Multiplexer capelet (cape add-on board) for the Bela low-latency audio/sensor environment. Adds support for 64 analog inputs channels to the Bela cape.
+
+http://bela.io
+
+(c) 2016 Andrew McPherson 
+Centre for Digital Music
+Queen Mary University of London
+Mile End Road
+London E1 4NS
+United Kingdom
+
+a.mcpherson@qmul.ac.uk
+
+-------------------------
+
+Suggested build specifications:
+
+2 layers
+1.6mm board thickness
+black soldermask
+white silkscreen, top side
+standard finish
+7 mil minimum feature size
+15 mil minimum drill
+Tab routing / milling (for panelising)
+
+-------------------------
+
+Package contents:
+
+*** EAGLE Design Files:
+
+mux_capelet.sch	EAGLE schematic
+mux_capelet.brd	EAGLE board
+
+*** Gerbers (RS274X unless otherwise noted):
+
+mux_capelet.cmp	Component Side (top) copper
+mux_capelet.sol	Solder Side (bottom) copper
+mux_capelet.stc	Component side (top) stop mask
+mux_capelet.sts	Solder side (bottom) stop mask
+mux_capelet.plc	Component side (top) silkscreen
+mux_capelet.dim	Outline dimension
+mux_capelet.drd	NC Drill (Excellon format)
+mux_capelet.crc	Component side (top) paste
+
+Files named mux_capelet_breakout are for a separate breakout board containing
+J5, J9, J10 (or equivalently J6, J11, J12). Two of these should be made.
+
+*** Assembly files:
+
+mux_capelet_centroid.csv	XYRS placement data
+mux_capelet_bom.xls		Bill of materials
+
+-------------------------
+
+This design is available under the Creative Commons Attribution-ShareAlike 3.0 Unported License:
+
+http://creativecommons.org/licenses/by-sa/3.0/
+
+-------------------------
+
+Revision History:
+
+A1 (March 2016)		Initial design.
+A2 (May 2016)		Fixed power source from VDD_5V (barrel jack only) to SYS_5V.
+			Changed board outline to allow audio expander underneath.
