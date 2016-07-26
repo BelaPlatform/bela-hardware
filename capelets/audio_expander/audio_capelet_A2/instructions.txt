@@ -1,0 +1,82 @@
+Part: audio_capelet, revision A2
+--------------------------------
+
+Audio expander capelet (cape add-on board) for the Bela low-latency audio/sensor environment. Converts the 8 analog I/Os into extra AC-coupled and filtered audio channels.
+
+http://bela.io
+
+(c) 2016 Laurel Pardue and Andrew McPherson 
+Centre for Digital Music
+Queen Mary University of London
+Mile End Road
+London E1 4NS
+United Kingdom
+
+a.mcpherson@qmul.ac.uk
+
+-------------------------
+
+Suggested build specifications:
+
+4 layers
+1.6mm board thickness
+black soldermask
+white silkscreen, both sides
+standard finish
+7 mil minimum feature size
+15 mil minimum drill
+Tab routing / milling (for panelising)
+double-sided assembly
+
+-------------------------
+
+Package contents:
+
+*** EAGLE Design Files:
+
+audio_capelet.sch	EAGLE schematic
+audio_capelet.brd	EAGLE board
+
+*** Gerbers (RS274X unless otherwise noted):
+
+audio_capelet.cmp	Component Side (top) copper
+audio_capelet.ly2	Inner layer copper
+audio_capelet.ly3	Inner layer copper
+audio_capelet.sol	Solder Side (bottom) copper
+audio_capelet.stc	Component side (top) stop mask
+audio_capelet.sts	Solder side (bottom) stop mask
+audio_capelet.plc	Component side (top) silkscreen
+audio_capelet.pls	Solder side (bottom) silkscreen
+audio_capelet.dim	Outline dimension
+audio_capelet.drd	NC Drill (Excellon format)
+audio_capelet.crc	Component side (top) paste
+audio_capelet.crs	Solder side (bottom) paste
+
+*** Assembly files:
+
+audio_capelet_centroid.csv	XYRS placement data
+audio_capelet_bom.xls		Bill of materials
+audio_capelet_partlist.txt	Parts list 
+				(last column specifies top "R" or bottom "MR" assembly)
+
+-------------------------
+
+This design is available under the Creative Commons Attribution-ShareAlike 3.0 Unported License:
+
+http://creativecommons.org/licenses/by-sa/3.0/
+
+-------------------------
+
+Revision History:
+
+A1 (May 2016)		Initial design.
+A2 (July 2016)		Fixed which 5V power traces are used.
+			Fixed missing trace to reference voltage regulator.
+			Fixed connection of resistors on analog in amplifiers.
+			Added new connector J11 which allows disconnecting from audio in.
+			Clarified numbering of connector J12 which should be socket 
+			like J11.
+			Minor layout change on bottom layer to make orientation of
+			components less ambiguous.
+			Board outline is slightly elongated to allow for J11.
+			Renumbered I/Os from 1-8 to 0-7.
