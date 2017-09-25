@@ -1,0 +1,32 @@
+Bela-cape-name,BBB-pdf-pin-name,BB-$PIN,BBB-mux-setting,signal-name,am335x-PIN,OSD335x-SM-PIN,OSD335x-SM-name,PB-signal,PB-pinout
+adc,,,,,,,,,
+SPI_ADC_CNV,P9_15-GPIO1_16,16,0x040 0x27,GPIO1_16,R13,T12,GPMC_A0,_,(nc)
+SPI_ADC_CNV(nc),P9_17-I2C1_SCL,87,0x15x,spi0_cs0,A16,A14,SPI0_CS0,SPI0.CS,P1_06
+SPI_SCK,P9_22-UART2_RXD,84,0x150 0x30,spi0_sclk,A17,A13,SPI0_SCLK,SPI0.CLK,P1_08
+SPI_MISO,P9_21-UART2_TXD,85,0x154 0x30,spi0_d0,B17,B13,SPI0_D0,SPI0.MISO,P1_10
+SPI_MOSI,P9_18-I2C1_SDA,86,0x158 0x10,spi0_d1,B16,B14,SPI0_D1,SPI0.MOSI,P1_12
+,,,,,,,,,
+audio,,,,,,,,,
+AUD_MCLK,P9_25-GPIO3_21,107,0x1ac 0x00,mcasp0_ahclkx,A14,C4,MCASP0_AHCLKX,PRU0.7,P1_29
+AUD_WCLK,P9_29-SPI1_DO,101,0x194 0x20,mcasp0_fsx,B13,A2,MCASP0_FSX,PRU0.1,P1_33
+AUD_BCLK,P9_31-SPI1_SCLK,100,0x190 0x20,mcasp0_aclkx,A13,A1,MCASP0_ACLKX,PWM0A,P1_36
+AUD_DOUT,P9_28-SPI1_CS0,103,0x19c 0x22,mcasp0_axr2,C12,B1,MCASP0_AHCLKR,PRU0.3,P2_30
+AUD_DIN,P9_30-SPI1_DI,102,0x198 0x20,mcasp0_axr0,D12,B2,MCASP0_AXR0,PRU0.2,P2_32
+SCL,P9_19-I2C2_SCL,95,0x17c 0x33,I2C2_SCL,D17,A10,UART1_RTSN,I2C2.SCL,P1_28
+SDA,P9_20-I2C2_SDA,94,0x178 0x33,I2C2_SDA,D18,B10,UART1_CTSN,I2C2.SDA,P1_26
+RESETN,P9_10-SYS_RESETN,_,_,SYS_RESETNA,A10,R11,WARMRSTN,RESET#,P2_26
+,,,,,,,,,
+button,,,,,,,,,
+SHUTDOWN_REQ,P9_27-GPIO3_19,105 0x1a4 0x27,GPIO3_19,C13,B3,MCASP0_FSR,PRU0.5,P2_34,
+,,,,,,,,,
+How to obtain the values above:,,,,,,,,,
+* Bring up the BeagleboneP9Header pdf ,,,,,,,,,
+"* look up the pin number and ""name"" (it turns out this name is not always the same as the am335x pin name",,,,,,,,,
+* look up the pinmuxer settings (either from dts or `grep`'ing `$PINS`),,,,,,,,,
+* look up the signal-name in the,,,,,,,,,
+"* look up the ""PIN""column (which corresponds to the am335x ZPZ ball number) in http://www.ti.com/lit/ds/symlink/am3359.pdf then write it into is am335x-PIN",,,,,,,,,
+* match the am335x-PIN with the OSD335x-BSM pin in https://octavosystems.com/files/osd335x-sm-am335x-pin-mapping/ or https://octavosystems.com/app_notes/am335x-signal-to-osd335x-pins/ then write it into OSD335x-PIN and the name in OSD335x-name,,,,,,,,,
+* for the pins above the pin names for the OSD335x-SM are the same as for the am335x,,,,,,,,,
+* bring up the PocketBeagle schematics and ,,,,,,,,,
+* look up the OSD335x-SM name/PIN and determine what the signal is called on the board,,,,,,,,,
+* follow the signal to the header if available then write it on PB-pinout,,,,,,,,,
