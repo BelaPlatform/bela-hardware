@@ -1,7 +1,7 @@
 # bela-hardware
 
 Hardware design files for Bela cape and capelets. PCB designs are 
-made in Cadsoft EAGLE (https://cadsoft.io). 
+made in either Cadsoft EAGLE (https://cadsoft.io) or Kicad (http://kicad-pcb.org). 
 
  ```
  ____  _____ _        _    
