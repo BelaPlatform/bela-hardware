@@ -1,0 +1,69 @@
+Part: belamini_cape, revision B3
+--------------------------------
+
+Audio and sensor cape for PocketBeagle, featuring stereo audio codec, 8 channel 16-bit ADC and USB port. Designed for the Bela ultra-low-latency audio environment.
+
+http://bela.io
+
+(c) 2019 Augmented Instruments Ltd 
+London, United Kingdom
+
+info@bela.io
+
+-------------------------
+
+Suggested build specifications:
+
+2 layers
+1.6mm board thickness
+black soldermask
+white silkscreen, both sides
+standard finish
+7 mil minimum feature size
+15 mil minimum drill
+Tab routing / milling (for panelising)
+Double-sided SMT assembly
+
+-------------------------
+
+Package contents:
+
+*** EAGLE Design Files:
+
+belamini_cape_B3.sch	EAGLE schematic
+belamini_cape_B3.brd	EAGLE board
+
+*** Gerbers (RS274X unless otherwise noted):
+
+belamini_cape_B3.cmp	Component Side (top) copper
+belamini_cape_B3.sol	Solder Side (bottom) copper
+belamini_cape_B3.stc	Component side (top) stop mask
+belamini_cape_B3.sts	Solder side (bottom) stop mask
+belamini_cape_B3.plc	Component side (top) silkscreen
+belamini_cape_B3.pls	Solder side (bottom) silkscreen
+belamini_cape_B3.dim	Outline dimension
+belamini_cape_B3.drd	NC Drill (Excellon format)
+belamini_cape_B3.crc	Component side (top) paste
+belamini_cape_B3.crs	Solder side (bottom) paste
+
+*** Assembly files:
+
+belamini_cape_B3_centroid.csv	XYRS placement data
+belamini_cape_B3_bom.xls	Bill of materials
+
+-------------------------
+
+This design is available under the Creative Commons Attribution-ShareAlike 3.0 Unported License:
+
+http://creativecommons.org/licenses/by-sa/3.0/
+
+-------------------------
+
+Revision History:
+
+A1 			Internal build.
+B1 			Internal build. Flip components to solder side.
+B2 (March 2018)		First public release. Add ESD protection to USB port
+			and ground USB ID bit. Changes to silkscreen.
+B3 (May 2019)		Add R6 and R7 to reduce noise on audio output when
+			codec is not active.
