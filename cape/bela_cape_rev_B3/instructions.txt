@@ -1,0 +1,96 @@
+Part: bela_cape, revision B3
+--------------------------------
+
+Audio and sensor cape for BeagleBone Black, featuring stereo audio codec, 8 channel 16-bit ADC, 8 channel 16-bit DAC and 2x 1.1W speaker amplifiers. Designed for the Bela ultra-low-latency audio environment.
+
+http://bela.io
+
+(c) 2019 Andrew McPherson 
+Augmented Instruments Ltd
+327 Mile End Road
+London E1 4NS
+United Kingdom
+
+a.mcpherson@qmul.ac.uk
+
+-------------------------
+
+Suggested build specifications:
+
+2 layers
+1.6mm board thickness
+black soldermask
+white silkscreen, top side
+standard finish
+7 mil minimum feature size
+15 mil minimum drill
+Tab routing / milling (for panelising)
+
+-------------------------
+
+Package contents:
+
+*** EAGLE Design Files:
+
+bela_cape.sch	EAGLE schematic
+bela_cape.brd	EAGLE board
+
+*** Gerbers (RS274X unless otherwise noted):
+
+bela_cape.cmp	Component Side (top) copper
+bela_cape.sol	Solder Side (bottom) copper
+bela_cape.stc	Component side (top) stop mask
+bela_cape.sts	Solder side (bottom) stop mask
+bela_cape.plc	Component side (top) silkscreen
+bela_cape.dim	Outline dimension
+bela_cape.drd	NC Drill (Excellon format)
+bela_cape.crc	Component side (top) paste
+
+*** Assembly files:
+
+bela_cape_centroid.csv	XYRS placement data
+bela_cape_bom.xls	Bill of materials
+
+-------------------------
+
+This design is derived from the BeagleBone Audio Cape rev. B from CircuitCo: 
+
+http://elinux.org/CircuitCo:Audio_Cape_RevB
+
+This design is available under the Creative Commons Attribution-ShareAlike 3.0 Unported License:
+
+http://creativecommons.org/licenses/by-sa/3.0/
+
+-------------------------
+
+Revision History:
+
+A1 (January 2015)	Internal build.
+A2 (May 2015)		First public release. Revised and clarified silkscreen text.
+A3 (May 2015)		Fixed soldermask on IC4.
+A4 (October 2015)	Replaced J1 with a header for +5V to amps (left DNI in BOM).
+			Moved FB4 next to J1 so it can be removed to disconnect +5V.
+			The above changes allow amp to be powered separately from BBB/G.
+			Changed J7 and J8 to sockets rather than pins.
+B1 (March 2016)		Moved J7, J8, J9, J10 to align to 0.1" spacing.
+			Added SW1 and R6 for a system shutdown request feature.
+			Moved J3-J6 upward slightly to make room for SW1.
+			Added test point for Vref on ADC.
+			Fixed incorrect labels on J2.
+			Changed order of DAC channels on label for J8 (needs to be
+			matched with a software change).
+			Added better labelling on connectors throughout.
+			Changed name to Bela and website to bela.io.
+			Added Bela logo on silkscreen.
+B2 (September 2017)	Changed C28 and C29 from 0.1uF to 1uF.
+			Connected unused pins of J10 to ground.
+			Added test point for MICBIAS signal on IC6.
+B3 (October 2019)	Changed protection circuit on analog inputs to use Schottky
+			diodes to 3.3V and ground rather than ESD protectors.
+			Changed power amp feedback resistors R7 and R14 to 43k,
+			doubling gain of the amplifiers.
+			Reduced headphone resistors R11 and R12 to 15 ohms, increasing
+			gain for low impedance headphones.
+			Added pulldown resistors on headphone outputs in place of 47pF
+			capacitors.
+			Silkscreen updated for latest Bela logo and copyright.
