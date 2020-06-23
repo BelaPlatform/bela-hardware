@@ -1,28 +1,15 @@
-# bela-hardware
+# Bela Hardware
 
-Hardware design files for Bela cape and capelets. PCB designs are 
-made in either Cadsoft EAGLE (https://cadsoft.io) or Kicad (http://kicad-pcb.org). 
+This repo contains the editable hardware design files for Bela products, including Bela, Bela Mini, Bela accessories.
 
- ```
- ____  _____ _        _    
-| __ )| ____| |      / \   
-|  _ \|  _| | |     / _ \  
-| |_) | |___| |___ / ___ \ 
-|____/|_____|_____/_/   \_\
-```
-The platform for ultra-low latency audio and sensor processing
+These PCB designs have been created in and are editable with Cadsoft EAGLE (https://cadsoft.io) amd Kicad (http://kicad-pcb.org). 
 
-http://bela.io
+## Licensing
 
-A project of the Augmented Instruments Laboratory within the
-Centre for Digital Music at Queen Mary University of London.
-http://www.eecs.qmul.ac.uk/~andrewm
+The hardware designs in this repo are licensed under a Creative Commons Attribtion Sharealike license, or [CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/). This means you are free edit and use these designs, as long as you agree to supply credit and release your results under the same license. [Read about CC-BY-SA here](http://creativecommons.org/licenses/by-sa/3.0/).
 
-(c) 2016 Augmented Instruments Laboratory: Andrew McPherson,
-	Astrid Bin, Liam Donovan, Christian Heinrichs, Robert Jack,
-	Giulio Moro, Laurel Pardue, Victor Zappi. All rights reserved.
-	
-The Bela hardware is available under the Creative Commons 
-Attribution-ShareAlike 3.0 Unported License:
+If you want to create a commercial product using the Bela hardware designs and don't want to release it under the same license, you will need a commercial license. Drop us an email at info@bela.io to discuss your project, and we can suggest a commercial license to fit your project's scope and scale.
 
-http://creativecommons.org/licenses/by-sa/3.0/
+## Branding
+
+The Bela logo is copyrighted, and is reserved for products made or licensed by the Bela team. If you want to include a Bela logo on your project, we've made a Made With Bela logo just for this. [See this page for details on logo use](https://belaplatform.github.io/bela_sample/src/#logos) and to download the Made With Bela logo.
