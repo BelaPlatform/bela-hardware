@@ -2,7 +2,7 @@
 
 This repo contains the editable hardware design files for Bela products, including Bela, Bela Mini, Bela accessories.
 
-These PCB designs have been created in and are editable with Cadsoft EAGLE (https://cadsoft.io) amd Kicad (http://kicad-pcb.org). 
+These PCB designs have been created in and are editable with Cadsoft EAGLE (https://cadsoft.io) and Kicad (http://kicad-pcb.org). 
 
 ## Licensing
 
