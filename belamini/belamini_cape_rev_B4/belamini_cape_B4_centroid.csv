@@ -1,0 +1,52 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "belamini_cape_B4.brd" as of: 10/11/2020 13:21
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+C1,Bottom,0.715,0.775,90
+C2,Bottom,0.965,0.520,270
+C3,Bottom,0.828,0.860,180
+C4,Bottom,0.828,0.790,180
+C5,Bottom,0.810,1.000,270
+C6,Bottom,1.295,0.593,270
+C7,Bottom,0.670,0.540,0
+C8,Bottom,1.515,0.590,90
+C9,Bottom,1.385,0.590,90
+C12,Bottom,1.770,0.980,180
+C13,Bottom,1.770,0.910,0
+C14,Bottom,1.630,0.800,0
+C15,Bottom,1.630,0.740,180
+C16,Bottom,1.375,0.790,270
+C17,Bottom,1.610,1.000,180
+C18,Bottom,1.450,0.790,90
+C19,Bottom,1.610,1.070,0
+D1,Bottom,1.780,0.525,270
+D2,Bottom,1.780,0.675,90
+D3,Bottom,1.610,0.900,270
+D4,Bottom,1.655,0.640,270
+D5,Top,0.050,0.400,0
+FB1,Bottom,1.035,0.520,270
+FB2,Bottom,1.298,0.790,270
+IC1,Bottom,0.670,0.980,0
+IC2,Bottom,0.950,0.980,180
+IC3,Bottom,0.810,0.630,270
+IC4,Bottom,1.380,1.040,180
+IC5,Bottom,1.195,0.593,0
+IC6,Bottom,0.490,0.760,270
+J5,Top,0.330,0.760,0
+R1,Bottom,1.645,0.540,0
+R2,Bottom,1.645,0.470,0
+R3,Bottom,0.059,1.156,0
+R4,Bottom,0.140,0.540,0
+R5,Bottom,0.140,0.470,0
+R6,Bottom,1.845,0.525,270
+R7,Bottom,1.845,0.675,90
+R8,Bottom,1.770,1.050,0
+R9,Bottom,1.770,0.810,0
+R10,Bottom,1.980,1.200,0
+R11,Bottom,1.980,1.270,0
+RN1,Bottom,0.830,0.470,180
+S1,Top,0.042,1.156,270
