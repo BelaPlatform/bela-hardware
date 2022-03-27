@@ -1,0 +1,15 @@
+### Module positions - created on Sunday, 27 March 2022 at 00:10:52 ###
+### Printed by Pcbnew version (6.0.0-rc1-458-g78ff9a857a)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                              PosX       PosY       Rot  Side
+D5        LTST-C195TBJRKT      LED_LiteOn_LTST-C19HE1WT                         123.7951  -115.5186    0.0000  top
+J1        Conn_01x10           PinHeader_1x10_P2.54mm_Vertical                  149.7661   -96.1136  -90.0000  top
+J2        Conn_01x03           PinHeader_1x03_P2.54mm_Vertical                  167.6000   -96.1500  -90.0000  top
+J3        Conn_01x03           Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical   172.6550  -107.5600  -90.0000  top
+J4        Conn_01x03           Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical   172.6050   -97.4100  -90.0000  top
+J5        USB_A                USBA_SMD                                         130.6028   -95.8931    0.0000  top
+P1        Conn_02x18_Odd_Even  PocketBeagle-P                                   124.8600  -117.6200   90.0000  top
+P2        Conn_02x18_Odd_Even  PocketBeagle-P                                   124.8500   -92.2100   90.0000  top
+S1        PTS810               SW_SPST_PTS810                                   123.5919   -96.3162  -90.0000  top
+## End

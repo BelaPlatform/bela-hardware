@@ -1,0 +1,75 @@
+Part: belamini_cape, revision C1
+--------------------------------
+
+Audio and sensor cape for PocketBeagle, featuring stereo audio codec, 8 channel 16-bit ADC and USB port. Designed for the Bela ultra-low-latency audio environment.
+
+http://bela.io
+
+(c) 2022 Augmented Instruments Ltd 
+London, United Kingdom
+
+info@bela.io
+
+-------------------------
+
+Suggested build specifications:
+
+4 layers
+1.6mm board thickness
+black soldermask
+white silkscreen, both sides
+standard finish
+7 mil minimum feature size
+15 mil minimum drill
+Tab routing / milling (for panelising)
+Double-sided SMT assembly
+
+-------------------------
+
+Package contents:
+
+*** Gerbers (RS274X unless otherwise noted):
+
+belamini_cape_C1-F_Cu.gbr		Component Side (top) copper
+belamini_cape_C1-In1_Cu.gbr		Inner Layer 1 (mid-top) copper
+belamini_cape_C1-In2_Cu.gbr		Inner Layer 2 (mid-bottom) copper
+belamini_cape_C1-B_Cu.gbr		Solder Side (bottom) copper
+belamini_cape_C1-F_Mask.gbr		Component side (top) stop mask
+belamini_cape_C1-B_Mask.gbr		Solder side (bottom) stop mask
+belamini_cape_C1-F_Silkscreen.gbr	Component side (top) silkscreen
+belamini_cape_C1-B_Silkscreen.gbr	Solder side (bottom) silkscreen
+belamini_cape_C1-Edge_Cuts.gbr		Outline dimension
+belamini_cape_C1-PTH.drl		NC Drill plated holes (Excellon format)
+belamini_cape_C1-NPTH.drl		NC Drill non-plated holes (Excellon format)
+belamini_cape_C1-F_Paste.gbr		Component side (top) paste
+belamini_cape_C1-B_Paste.gbr		Solder side (bottom) paste
+
+*** Assembly files:
+
+belamini_cape_C1-top.pos	Top XYRS placement data
+belamini_cape_C1-bottom.pos	Bottom XYRS placement data
+belamini_cape_C1_bom.xls	Bill of materials
+
+-------------------------
+
+This design is available under the Creative Commons Attribution-ShareAlike 3.0 Unported License:
+
+http://creativecommons.org/licenses/by-sa/3.0/
+
+-------------------------
+
+Revision History:
+
+A1 			Internal build.
+B1 			Internal build. Flip components to solder side.
+B2 (March 2018)		First public release. Add ESD protection to USB port
+			and ground USB ID bit. Changes to silkscreen.
+B3 (May 2019)		Add R6 and R7 to reduce noise on audio output when
+			codec is not active.
+B4 (November 2020)	Change input protection circuitry (D3, D4, R8, R9).
+			Change headphone output resistors R1, R2 to 15 ohms.
+			Add I2C pullup resistors R10, R11.
+C1 (March 2022)		Change ADC to ADS816x series.
+			Changes to passives tos upport ADS816x.
+			4-layer PCB for improved ground and power integrity.
+			Move design to KiCad.

@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name "belamini_cape_C1-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/belamini_cape_C1-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "Bela")(type "KiCad")(uri "${KIPRJMOD}/Bela.kicad_sym")(options "")(descr ""))
 )

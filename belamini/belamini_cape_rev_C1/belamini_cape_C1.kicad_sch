@@ -4,30 +4,46 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Bela Mini")
+    (date "2022-03-26")
+    (rev "C1")
+    (company "Augmented Instruments Ltd")
+  )
+
   (lib_symbols
   )
 
 
-  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (text "Analog Ins" (at 33.782 28.956 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 5b33f609-b9f9-49ea-8d0a-7271919bc665)
+  )
+  (text "Audio and Interface" (at 97.79 29.718 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 955295cd-5eeb-4945-b4a0-a997e67cac50)
+  )
+
+  (sheet (at 34.798 37.084) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 97f314f7-06f7-4f76-bef3-e5a7c3bbe098)
-    (property "Sheet name" "belamini_cape_C1_1" (id 0) (at 25.4 24.6884 0)
+    (property "Sheet name" "belamini_cape_C1_1" (id 0) (at 34.798 36.3724 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "belamini_cape_C1_1.kicad_sch" (id 1) (at 25.4 29.7946 0)
+    (property "Sheet file" "belamini_cape_C1_1.kicad_sch" (id 1) (at 34.798 41.4786 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 104.394 36.83) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid c15b31bd-285d-498f-b04e-55d8a4c43e67)
-    (property "Sheet name" "belamini_cape_C1_2" (id 0) (at 76.2 24.6884 0)
+    (property "Sheet name" "belamini_cape_C1_2" (id 0) (at 104.394 36.1184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "belamini_cape_C1_2.kicad_sch" (id 1) (at 76.2 29.7946 0)
+    (property "Sheet file" "belamini_cape_C1_2.kicad_sch" (id 1) (at 104.394 41.2246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -223,10 +239,10 @@
       (reference "C24") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/c15b31bd-285d-498f-b04e-55d8a4c43e67/6b6aa791-0e9c-4dd1-89d9-fd83d4045be1"
-      (reference "D1") (unit 1) (value "ESD") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D1") (unit 1) (value "PESD0603-240") (footprint "Diode_SMD:D_0603_1608Metric")
     )
     (path "/c15b31bd-285d-498f-b04e-55d8a4c43e67/869a6a78-2df7-4e21-8ab9-bd4868a7773f"
-      (reference "D2") (unit 1) (value "ESD") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D2") (unit 1) (value "PESD0603-240") (footprint "Diode_SMD:D_0603_1608Metric")
     )
     (path "/c15b31bd-285d-498f-b04e-55d8a4c43e67/cbccfdca-fb5f-461e-ae52-a6c13d8e2642"
       (reference "D3") (unit 1) (value "BAS70-04") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -235,13 +251,13 @@
       (reference "D4") (unit 1) (value "BAS70-04") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/c15b31bd-285d-498f-b04e-55d8a4c43e67/d65f6660-8da2-41ad-8c60-a36b33b51cc0"
-      (reference "D5") (unit 1) (value "LED_Dual_AAKK") (footprint "LED_SMD:LED_LiteOn_LTST-C19HE1WT")
+      (reference "D5") (unit 1) (value "LTST-C195TBJRKT") (footprint "LED_SMD:LED_LiteOn_LTST-C19HE1WT")
     )
     (path "/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/6e0fe158-ffc5-4a8f-94d6-3545c71bab7e"
-      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB1") (unit 1) (value "MPZ1608S121ATAH0") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/c15b31bd-285d-498f-b04e-55d8a4c43e67/4e92241f-8d90-4676-97dd-3daf3c557d71"
-      (reference "FB2") (unit 1) (value "FerriteBead") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB2") (unit 1) (value "MPZ1608S121ATAH0") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/9dacd6eb-de6a-4d25-b9a4-7594fa54cc34"
       (reference "IC1") (unit 1) (value "TSV524xIQ4T") (footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
@@ -352,7 +368,7 @@
       (reference "RN1") (unit 1) (value "22") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
     )
     (path "/c15b31bd-285d-498f-b04e-55d8a4c43e67/5705ea15-5e4c-4d32-bdb8-8bc266d84b62"
-      (reference "S1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_PTS810")
+      (reference "S1") (unit 1) (value "PTS810") (footprint "Button_Switch_SMD:SW_SPST_PTS810")
     )
   )
 )

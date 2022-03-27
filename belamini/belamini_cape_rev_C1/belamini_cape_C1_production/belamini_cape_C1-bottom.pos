@@ -1,0 +1,57 @@
+### Module positions - created on Sunday, 27 March 2022 at 00:10:52 ###
+### Printed by Pcbnew version (6.0.0-rc1-458-g78ff9a857a)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val               Package                                    PosX       PosY       Rot  Side
+C1        0.1uF             C_0603_1608Metric                     -141.4000  -112.0000   90.0000  bottom
+C2        10uF              C_0603_1608Metric                     -148.7000  -110.1000    0.0000  bottom
+C3        1uF               C_0603_1608Metric                     -139.8500  -110.0500  -90.0000  bottom
+C4        0.1uF             C_0603_1608Metric                     -143.0000  -112.0000   90.0000  bottom
+C5        0.1uF             C_0603_1608Metric                     -143.0991  -100.2000   90.0000  bottom
+C6        0.1uF             C_0603_1608Metric                     -152.9000  -107.7000  180.0000  bottom
+C7        1uF               C_0603_1608Metric                     -155.3400  -110.5700  -90.0000  bottom
+C8        47uF              C_1206_3216Metric                     -160.9750  -110.6926  -90.0000  bottom
+C9        47uF              C_1206_3216Metric                     -157.9200  -110.6900  -90.0000  bottom
+C10       1.2nF             C_0603_1608Metric                     -148.6500  -108.4500    0.0000  bottom
+C11       1.2nF             C_0603_1608Metric                     -148.6500  -103.8000    0.0000  bottom
+C12       47pF              C_0603_1608Metric                     -167.4831  -100.7866  180.0000  bottom
+C13       47pF              C_0603_1608Metric                     -167.4831  -102.5646  180.0000  bottom
+C14       1uF               C_0603_1608Metric                     -163.9271  -105.3586    0.0000  bottom
+C15       1uF               C_0603_1608Metric                     -163.9271  -106.8826    0.0000  bottom
+C16       0.1uF             C_0603_1608Metric                     -157.4501  -105.6126  -90.0000  bottom
+C17       0.1uF             C_0603_1608Metric                     -163.4191  -100.2786    0.0000  bottom
+C18       10uF              C_0603_1608Metric                     -159.3551  -105.6126  -90.0000  bottom
+C19       10uF              C_0603_1608Metric                     -163.4191   -98.5006    0.0000  bottom
+C20       10uF              C_0603_1608Metric                     -139.8500  -105.4000   90.0000  bottom
+C21       10uF              C_0603_1608Metric                     -138.3000  -105.4000   90.0000  bottom
+C22       1uF               C_0603_1608Metric                     -138.3000  -110.0500  -90.0000  bottom
+C23       1uF               C_0603_1608Metric                     -139.0500  -107.6500  180.0000  bottom
+C24       1uF               C_0603_1608Metric                     -135.8250  -101.5500   90.0000  bottom
+D1        PESD0603-240      D_0603_1608Metric                     -167.7371  -112.3436  -90.0000  bottom
+D2        PESD0603-240      D_0603_1608Metric                     -167.7371  -108.5336   90.0000  bottom
+D3        BAS70-04          SOT-23                                -163.4191  -102.8186  180.0000  bottom
+D4        BAS70-04          SOT-23                                -164.5621  -109.4226  180.0000  bottom
+FB1       MPZ1608S121ATAH0  L_0603_1608Metric                     -149.4000  -112.5000  -90.0000  bottom
+FB2       MPZ1608S121ATAH0  L_0603_1608Metric                     -155.4816  -105.6126   90.0000  bottom
+IC1       TSV524xIQ4T       QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm   -139.5431  -100.7866  180.0000  bottom
+IC2       TSV524xIQ4T       QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm   -146.6551  -100.7866    0.0000  bottom
+IC3       ADS8168           VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm  -143.8000  -107.3000    0.0000  bottom
+IC4       TLV320AIC3104     QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm   -157.5771   -99.2626  -90.0000  bottom
+IC5       MIC5317           SOT-23-5                              -152.9000  -110.6291   90.0000  bottom
+IC6       USBLC6-2SC6       SOT-23-6                              -135.0000  -106.4000  180.0000  bottom
+R1        15                R_0603_1608Metric                     -164.3081  -111.9626  180.0000  bottom
+R2        15                R_0603_1608Metric                     -164.3081  -113.7406  180.0000  bottom
+R3        100               R_0603_1608Metric                     -124.0251   -96.3286  180.0000  bottom
+R4        560               R_0603_1608Metric                     -126.0811  -111.9626    0.0000  bottom
+R5        560               R_0603_1608Metric                     -126.0811  -113.7406  180.0000  bottom
+R6        3.3k              R_0603_1608Metric                     -169.3881  -112.3436  -90.0000  bottom
+R7        3.3k              R_0603_1608Metric                     -169.3881  -108.5336   90.0000  bottom
+R8        220               R_0603_1608Metric                     -167.4831   -99.0086    0.0000  bottom
+R9        220               R_0603_1608Metric                     -167.4831  -105.1046    0.0000  bottom
+R10       10k               R_0603_1608Metric                     -172.8171   -95.1986    0.0000  bottom
+R11       10k               R_0603_1608Metric                     -172.8000   -93.4206    0.0000  bottom
+R12       49.9              R_0603_1608Metric                     -148.6500  -106.8500  180.0000  bottom
+R13       49.9              R_0603_1608Metric                     -148.6500  -105.3700  180.0000  bottom
+R14       10k               R_0603_1608Metric                     -139.0500  -112.3500    0.0000  bottom
+RN1       22                R_Array_Concave_4x0603                -146.0500  -112.6500  -90.0000  bottom
+## End
