@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/apm/Documents/eagle/bela-hardware-private/bela-hardware/belamini/belamini_cape_rev_C1/belamini_cape_C1.kicad_sch</source>
+    <date>Sunday, 27 March 2022 at 00:07:57</date>
+    <tool>Eeschema (6.0.0-rc1-458-g78ff9a857a)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Bela Mini</title>
+        <company>Augmented Instruments Ltd</company>
+        <rev>C1</rev>
+        <date>2022-03-26</date>
+        <source>belamini_cape_C1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/">
+      <title_block>
+        <title>Bela Mini</title>
+        <company>Augmented Instruments Ltd</company>
+        <rev>C1</rev>
+        <date>2022-03-26</date>
+        <source>belamini_cape_C1_1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/">
+      <title_block>
+        <title>Bela Mini</title>
+        <company>Augmented Instruments Ltd</company>
+        <rev>C1</rev>
+        <date>2022-03-26</date>
+        <source>belamini_cape_C1_2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>09ec1efd-da4b-476e-a114-b363062aeab3</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>fa5fd0aa-3d8e-4601-8b35-aea74036f680</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>43086041-f825-4082-9fa3-0c3c19e6a0d1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>10b2c046-94a6-4d73-9c37-1c1df3119ce2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>0269d722-88cb-4cda-9224-5e5af20c3a21</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1.2nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>eabbb019-92d3-4e08-bf3e-c8f9e54e7da0</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1.2nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>783417d9-5f7e-4d14-9e35-5504940f426b</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>c5943653-147c-4f43-9a12-90902c13a22d</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>3671411a-5094-4dd7-b188-597b565cfacb</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>f9c02f1a-935a-49b2-a6cc-e74aea3b9332</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>a1e0cb5c-65e2-483b-9cb5-21b287e25842</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>0fa87166-ea83-4ce0-b84a-ac2d1c62a2ea</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>MPZ1608S121ATAH0</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>6e0fe158-ffc5-4a8f-94d6-3545c71bab7e</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>TSV524xIQ4T</value>
+      <footprint>Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/tsv521.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TSV524xIQ4T" description="Quad CMOS Rail-to-Rail Input/Output Amplifier, 1.15MHz GBP, QFN-16"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>f5d37687-c9a4-4da1-b02a-49eaa99009fa ddaa1d50-3176-40b4-98c2-aefd638a6b52 9dacd6eb-de6a-4d25-b9a4-7594fa54cc34 7ac3fd83-1e91-4949-8951-5f427f67db8a 05a4c998-ab14-42ad-99b6-254f8137df25</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>TSV524xIQ4T</value>
+      <footprint>Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/tsv521.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TSV524xIQ4T" description="Quad CMOS Rail-to-Rail Input/Output Amplifier, 1.15MHz GBP, QFN-16"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>adeadcad-1ed9-402a-bc36-520f2bdf89a6 8a5dcea6-bd9b-43eb-8e92-3536f5cde6c4 f58e610a-7bc0-417b-b5bf-8d7c26168263 836b10ec-3d16-48aa-a3be-18d9420f9a5b 7f7f0b12-c6d1-435b-b470-c21940fb1b12</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>ADS8168</value>
+      <footprint>Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm</footprint>
+      <libsource lib="Bela" part="ADS8168" description=""/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>498a36cb-94f9-4061-b93e-8d8d00284c34</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x10</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>47e953a0-55a2-4091-948b-c8155fb3add4</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>49.9</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>5915577f-f3ab-4432-9795-02cf277fc60f</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>49.9</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>3b8647fd-c43a-4e2a-a1ab-2828b0f984bb</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>fd8ecd00-16d5-4ca9-bc09-eedd134e31e8</tstamps>
+    </comp>
+    <comp ref="RN1">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_Array_Concave_4x0603</footprint>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value="belamini_cape_C1_1"/>
+      <property name="Sheetfile" value="belamini_cape_C1_1.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_1/" tstamps="/97f314f7-06f7-4f76-bef3-e5a7c3bbe098/"/>
+      <tstamps>ce06fc68-4db3-4b3c-95fb-c2418e70470b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>fa7cbd46-336b-4fd3-86be-c51a9a837440</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>841a72ef-38e4-40ef-8ba3-29475b33c0d5</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>dd8f1b9e-5512-46cb-b7b9-613bdb955795</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>9e4db57c-d9f3-4cfe-9092-761a705f2362</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>069a8090-be56-4726-a458-de225d5df1d1</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>56cb0b38-7c86-40b6-90ab-39cbd08552b4</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>38a87859-200d-43f1-8e0f-9bcad5f35f91</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>41d57216-81d2-4ede-93d8-9521d6133ed8</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>54441046-c63f-4324-90cf-d479ce9b6042</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>3e6c5743-675e-4959-a1ae-3d8ca0fb7cbf</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>51c2751c-c296-4d4c-a29e-accf7c95491d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>3b5c5dac-649f-45a7-a966-4fe25a15c71f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>PESD0603-240</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF</datasheet>
+      <libsource lib="Diode" part="ESD9B5.0ST5G" description="ESD protection diode, 5.0Vrwm, SOD-923"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>6b6aa791-0e9c-4dd1-89d9-fd83d4045be1</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>PESD0603-240</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF</datasheet>
+      <libsource lib="Diode" part="ESD9B5.0ST5G" description="ESD protection diode, 5.0Vrwm, SOD-923"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>869a6a78-2df7-4e21-8ab9-bd4868a7773f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAS70-04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="Device" part="D_Schottky_Dual_Series_AKC" description="Dual Schottky diode, anode/cathode/center"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>cbccfdca-fb5f-461e-ae52-a6c13d8e2642</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAS70-04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="Device" part="D_Schottky_Dual_Series_AKC" description="Dual Schottky diode, anode/cathode/center"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>16bf2b83-5988-43e7-97a6-1ced76c61a34</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LTST-C195TBJRKT</value>
+      <footprint>LED_SMD:LED_LiteOn_LTST-C19HE1WT</footprint>
+      <libsource lib="Device" part="LED_Dual_AAKK" description="Dual LED, cathodes on pins 3 and 4"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>d65f6660-8da2-41ad-8c60-a36b33b51cc0</tstamps>
+    </comp>
+    <comp ref="FB2">
+      <value>MPZ1608S121ATAH0</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>4e92241f-8d90-4676-97dd-3daf3c557d71</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>TLV320AIC3104</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm</footprint>
+      <libsource lib="Bela" part="TLV320AIC3104" description=""/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>74668d46-2cae-4a28-9b23-e1ce1fc1378e</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>MIC5317</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <libsource lib="Bela" part="MIC5317" description=""/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>843988c9-e67f-4175-b677-6c23fa428d52</tstamps>
+    </comp>
+    <comp ref="IC6">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>f40dc29e-34ff-4058-9dd0-c21cc1a74fae</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>265d389a-b1f3-4894-8a42-29341e2c5cc3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>80b1783b-7f16-4008-bdd7-b5593897e5ca</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>21cbe2f2-7285-4299-9511-99808fc168bd</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB_A</value>
+      <footprint>Bela:USBA_SMD</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>32c767ee-1cf7-4ae4-a91b-d5ce78a7585a</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>Conn_02x18_Odd_Even</value>
+      <footprint>Bela:PocketBeagle-P</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x18_Odd_Even" description="Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>71da0fe4-7f3b-4af7-ba35-7b2e6b4f5020</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>Conn_02x18_Odd_Even</value>
+      <footprint>Bela:PocketBeagle-P</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x18_Odd_Even" description="Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>851559b9-cbf5-49f7-9df1-be4fdc9ca996</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>15</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>fc588ee7-2ff0-4e68-8bfe-7ff0d1cbb269</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>15</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>32a75e35-e8d6-42f8-9aa1-47f62b51f107</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>0e79b492-a03e-4be5-a11d-348bca4bcf41</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>cb76452f-fc9f-4e17-99a4-802006b8b1f7</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>8e43de47-04a2-4e94-8170-7e0d2dd97e7a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>751aa1ca-7b62-49c3-a503-66376b24c8a3</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>30978303-8c4b-4ed2-9af9-d760b9b19868</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>0c439c02-9030-412e-a295-5e3c6fe173d7</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>198ff4eb-7c66-4d80-a4d2-dca6e09b86e7</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>094485a6-fe24-4530-ab36-1a2f67965189</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>0c1d4f94-8e78-425b-8d9f-896c0ac7d3bb</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>PTS810</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS810</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="belamini_cape_C1_2"/>
+      <property name="Sheetfile" value="belamini_cape_C1_2.kicad_sch"/>
+      <sheetpath names="/belamini_cape_C1_2/" tstamps="/c15b31bd-285d-498f-b04e-55d8a4c43e67/"/>
+      <tstamps>5705ea15-5e4c-4d32-bdb8-8bc266d84b62</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="TSV524xIQ4T">
+      <description>Quad CMOS Rail-to-Rail Input/Output Amplifier, 1.15MHz GBP, QFN-16</description>
+      <docs>https://www.st.com/resource/en/datasheet/tsv521.pdf</docs>
+      <footprints>
+        <fp>QFN*3x3mm*P0.5mm*EP1.7x1.7mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSV524xIQ4T</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/tsv521.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="V+" type="power_in"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="+" type="input"/>
+        <pin num="5" name="-" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="-" type="input"/>
+        <pin num="9" name="+" type="input"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+        <pin num="15" name="" type="output"/>
+        <pin num="16" name="-" type="input"/>
+        <pin num="17" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Bela" part="ADS8168">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADS8168</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="DECAP" type="output"/>
+        <pin num="3" name="REFIO" type="output"/>
+        <pin num="4" name="REFM" type="output"/>
+        <pin num="5" name="REFP" type="output"/>
+        <pin num="6" name="REFP" type="output"/>
+        <pin num="7" name="REFBY2" type="output"/>
+        <pin num="8" name="AIN-COM" type="input"/>
+        <pin num="9" name="AIN0" type="input"/>
+        <pin num="10" name="AIN1" type="input"/>
+        <pin num="11" name="AIN2" type="input"/>
+        <pin num="12" name="AIN3" type="input"/>
+        <pin num="13" name="AIN4" type="input"/>
+        <pin num="14" name="AIN5" type="input"/>
+        <pin num="15" name="AIN6" type="input"/>
+        <pin num="16" name="AIN7" type="input"/>
+        <pin num="17" name="ADC-INP" type="input"/>
+        <pin num="18" name="MUXOUT-P" type="input"/>
+        <pin num="19" name="MUXOUT-M" type="input"/>
+        <pin num="20" name="ADC-INM" type="input"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ALERT" type="output"/>
+        <pin num="23" name="CS/" type="input"/>
+        <pin num="24" name="SDI" type="input"/>
+        <pin num="25" name="SCLK" type="input"/>
+        <pin num="26" name="SDO-0" type="output"/>
+        <pin num="27" name="SDO-1" type="output"/>
+        <pin num="28" name="READY" type="output"/>
+        <pin num="29" name="RST/" type="input"/>
+        <pin num="30" name="DVDD" type="power_in"/>
+        <pin num="31" name="GND" type="power_in"/>
+        <pin num="32" name="AVDD" type="power_in"/>
+        <pin num="33" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Bela" part="MIC5317">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5317</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Bela" part="TLV320AIC3104">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV320AIC3104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MCLK" type="input"/>
+        <pin num="2" name="BCLK" type="bidirectional"/>
+        <pin num="3" name="WCLK" type="bidirectional"/>
+        <pin num="4" name="DIN" type="input"/>
+        <pin num="5" name="DOUT" type="output"/>
+        <pin num="6" name="DVSS" type="power_in"/>
+        <pin num="7" name="IOVDD" type="power_in"/>
+        <pin num="8" name="SCL" type="bidirectional"/>
+        <pin num="9" name="SDA" type="bidirectional"/>
+        <pin num="10" name="IN1LP" type="input"/>
+        <pin num="11" name="IN1LM" type="input"/>
+        <pin num="12" name="IN1RP" type="input"/>
+        <pin num="13" name="IN1RM" type="input"/>
+        <pin num="14" name="IN2L" type="input"/>
+        <pin num="15" name="MICBIAS" type="power_out"/>
+        <pin num="16" name="IN2R" type="input"/>
+        <pin num="17" name="AVSS_ADC" type="power_in"/>
+        <pin num="18" name="DRVDD" type="power_in"/>
+        <pin num="19" name="HPLOUT" type="output"/>
+        <pin num="20" name="HPLCOM" type="output"/>
+        <pin num="21" name="DRVSS" type="power_in"/>
+        <pin num="22" name="HPRCOM" type="output"/>
+        <pin num="23" name="HPROUT" type="output"/>
+        <pin num="24" name="DRVDD2" type="power_in"/>
+        <pin num="25" name="AVDD" type="power_in"/>
+        <pin num="26" name="AVSS_DAC" type="power_in"/>
+        <pin num="27" name="LEFT_LOP" type="output"/>
+        <pin num="28" name="LEFT_LOM" type="output"/>
+        <pin num="29" name="RIGHT_LOP" type="output"/>
+        <pin num="30" name="RIGHT_LOM" type="output"/>
+        <pin num="31" name="~{RESET}" type="input"/>
+        <pin num="32" name="DVDD" type="power_in"/>
+        <pin num="33" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_A">
+      <description>USB Type A connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x18_Odd_Even">
+      <description>Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x18_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Dual_Series_AKC">
+      <description>Dual Schottky diode, anode/cathode/center</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Dual_Series_AKC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="common" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Dual_AAKK">
+      <description>Dual LED, cathodes on pins 3 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Dual_AAKK</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="A2" type="input"/>
+        <pin num="3" name="K1" type="input"/>
+        <pin num="4" name="K2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04">
+      <description>4 resistor network, parallel topology</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="ESD9B5.0ST5G">
+      <description>ESD protection diode, 5.0Vrwm, SOD-923</description>
+      <docs>https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF</docs>
+      <footprints>
+        <fp>D*SOD?923*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ESD9B5.0ST5G</field>
+        <field name="Footprint">Diode_SMD:D_SOD-923</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Bela">
+      <uri>/Users/apm/Documents/eagle/bela-hardware-private/bela-hardware/belamini/belamini_cape_rev_C1/Bela.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V8">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC4" pin="32" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="IC5" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+3.3VA">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="FB2" pin="2" pintype="passive"/>
+      <node ref="IC4" pin="18" pinfunction="DRVDD" pintype="power_in"/>
+      <node ref="IC4" pin="24" pinfunction="DRVDD2" pintype="power_in"/>
+      <node ref="IC4" pin="25" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="FB2" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="30" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="IC4" pin="7" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="IC5" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="IC5" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="P1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="+5V">
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="P1" pin="24" pinfunction="Pin_24" pintype="passive"/>
+    </net>
+    <net code="5" name="/belamini_cape_C1_1/5V_ANALOG">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="V+" pintype="power_in"/>
+      <node ref="IC2" pin="2" pinfunction="V+" pintype="power_in"/>
+      <node ref="IC3" pin="32" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="6" name="/belamini_cape_C1_1/REFP">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="5" pinfunction="REFP" pintype="output"/>
+      <node ref="IC3" pin="6" pinfunction="REFP" pintype="output"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/belamini_cape_C1_2/AUD_BCLK">
+      <node ref="IC4" pin="2" pinfunction="BCLK" pintype="bidirectional"/>
+      <node ref="P1" pin="36" pinfunction="Pin_36" pintype="passive"/>
+    </net>
+    <net code="8" name="/belamini_cape_C1_2/AUD_DIN">
+      <node ref="IC4" pin="5" pinfunction="DOUT" pintype="output"/>
+      <node ref="P2" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="9" name="/belamini_cape_C1_2/AUD_DOUT">
+      <node ref="IC4" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="P2" pin="30" pinfunction="Pin_30" pintype="passive"/>
+    </net>
+    <net code="10" name="/belamini_cape_C1_2/AUD_HPLOUT">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC4" pin="19" pinfunction="HPLOUT" pintype="output"/>
+    </net>
+    <net code="11" name="/belamini_cape_C1_2/AUD_HPROUT">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC4" pin="23" pinfunction="HPROUT" pintype="output"/>
+    </net>
+    <net code="12" name="/belamini_cape_C1_2/AUD_MCLK">
+      <node ref="IC4" pin="1" pinfunction="MCLK" pintype="input"/>
+      <node ref="P1" pin="29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="13" name="/belamini_cape_C1_2/AUD_WCLK">
+      <node ref="IC4" pin="3" pinfunction="WCLK" pintype="bidirectional"/>
+      <node ref="P1" pin="33" pinfunction="Pin_33" pintype="passive"/>
+    </net>
+    <net code="14" name="/belamini_cape_C1_2/HPL">
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/belamini_cape_C1_2/HPR">
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/belamini_cape_C1_2/INL">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/belamini_cape_C1_2/INR">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/belamini_cape_C1_2/LEFT_LOM">
+      <node ref="IC4" pin="28" pinfunction="LEFT_LOM" pintype="output"/>
+    </net>
+    <net code="19" name="/belamini_cape_C1_2/LEFT_LOP">
+      <node ref="IC4" pin="27" pinfunction="LEFT_LOP" pintype="output"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="20" name="/belamini_cape_C1_2/LINE1LP">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="common" pintype="passive"/>
+      <node ref="IC4" pin="14" pinfunction="IN2L" pintype="input"/>
+    </net>
+    <net code="21" name="/belamini_cape_C1_2/LINE1RP">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="D4" pin="3" pinfunction="common" pintype="passive"/>
+      <node ref="IC4" pin="16" pinfunction="IN2R" pintype="input"/>
+    </net>
+    <net code="22" name="/belamini_cape_C1_2/RESETN">
+      <node ref="IC4" pin="31" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="P2" pin="26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="23" name="/belamini_cape_C1_2/RIGHT_LOP">
+      <node ref="IC4" pin="29" pinfunction="RIGHT_LOP" pintype="output"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="24" name="/belamini_cape_C1_2/RIGHT_ROM">
+      <node ref="IC4" pin="30" pinfunction="RIGHT_LOM" pintype="output"/>
+    </net>
+    <net code="25" name="/belamini_cape_C1_2/SCL">
+      <node ref="IC4" pin="8" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="P1" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/belamini_cape_C1_2/SDA">
+      <node ref="IC4" pin="9" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="P1" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/belamini_cape_C1_2/SHUTDOWN_REQ{slash}">
+      <node ref="P2" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="/belamini_cape_C1_2/USBGND">
+      <node ref="IC6" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="P1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="P1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="29" name="/belamini_cape_C1_2/USB_DM">
+      <node ref="IC6" pin="1" pinfunction="I/O1" pintype="passive"/>
+      <node ref="IC6" pin="6" pinfunction="I/O1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="P1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="30" name="/belamini_cape_C1_2/USB_DP">
+      <node ref="IC6" pin="3" pinfunction="I/O2" pintype="passive"/>
+      <node ref="IC6" pin="4" pinfunction="I/O2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="P1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="31" name="/belamini_cape_C1_2/USB_VBUS">
+      <node ref="IC6" pin="5" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="P1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="P1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="3" pinfunction="K1" pintype="input"/>
+      <node ref="D5" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="IC1" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="IC1" pin="17" pinfunction="EP" pintype="passive"/>
+      <node ref="IC2" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="IC2" pin="17" pinfunction="EP" pintype="passive"/>
+      <node ref="IC3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC3" pin="21" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC3" pin="31" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC3" pin="33" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC3" pin="8" pinfunction="AIN-COM" pintype="input"/>
+      <node ref="IC4" pin="17" pinfunction="AVSS_ADC" pintype="power_in"/>
+      <node ref="IC4" pin="21" pinfunction="DRVSS" pintype="power_in"/>
+      <node ref="IC4" pin="26" pinfunction="AVSS_DAC" pintype="power_in"/>
+      <node ref="IC4" pin="33" pinfunction="EP" pintype="power_in"/>
+      <node ref="IC4" pin="6" pinfunction="DVSS" pintype="power_in"/>
+      <node ref="IC5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="P1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="P1" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="P2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="P2" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="DECAP" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="IC3" pin="20" pinfunction="ADC-INM" pintype="input"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="IC3" pin="17" pinfunction="ADC-INP" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="REFIO" pintype="output"/>
+    </net>
+    <net code="41" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="REFM" pintype="output"/>
+    </net>
+    <net code="42" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="7" pinfunction="REFBY2" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A2" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="+" pintype="input"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="+" pintype="input"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="-" pintype="input"/>
+      <node ref="IC1" pin="6" pintype="output"/>
+      <node ref="IC3" pin="12" pinfunction="AIN3" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7" pintype="output"/>
+      <node ref="IC1" pin="8" pinfunction="-" pintype="input"/>
+      <node ref="IC3" pin="9" pinfunction="AIN0" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9" pinfunction="+" pintype="input"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="IC1" pin="14" pintype="output"/>
+      <node ref="IC3" pin="10" pinfunction="AIN1" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(IC1-Pad15)">
+      <node ref="IC1" pin="15" pintype="output"/>
+      <node ref="IC1" pin="16" pinfunction="-" pintype="input"/>
+      <node ref="IC3" pin="11" pinfunction="AIN2" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1" pinfunction="+" pintype="input"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(IC2-Pad4)">
+      <node ref="IC2" pin="4" pinfunction="+" pintype="input"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(IC2-Pad5)">
+      <node ref="IC2" pin="5" pinfunction="-" pintype="input"/>
+      <node ref="IC2" pin="6" pintype="output"/>
+      <node ref="IC3" pin="14" pinfunction="AIN5" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(IC2-Pad7)">
+      <node ref="IC2" pin="7" pintype="output"/>
+      <node ref="IC2" pin="8" pinfunction="-" pintype="input"/>
+      <node ref="IC3" pin="15" pinfunction="AIN6" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(IC2-Pad9)">
+      <node ref="IC2" pin="9" pinfunction="+" pintype="input"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(IC2-Pad12)">
+      <node ref="IC2" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(IC2-Pad13)">
+      <node ref="IC2" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="IC2" pin="14" pintype="output"/>
+      <node ref="IC3" pin="16" pinfunction="AIN7" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(IC2-Pad15)">
+      <node ref="IC2" pin="15" pintype="output"/>
+      <node ref="IC2" pin="16" pinfunction="-" pintype="input"/>
+      <node ref="IC3" pin="13" pinfunction="AIN4" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(IC3-Pad18)">
+      <node ref="IC3" pin="18" pinfunction="MUXOUT-P" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(IC3-Pad19)">
+      <node ref="IC3" pin="19" pinfunction="MUXOUT-M" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(IC3-Pad23)">
+      <node ref="IC3" pin="23" pinfunction="CS/" pintype="input"/>
+      <node ref="RN1" pin="4" pinfunction="R4.1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(IC3-Pad24)">
+      <node ref="IC3" pin="24" pinfunction="SDI" pintype="input"/>
+      <node ref="RN1" pin="3" pinfunction="R3.1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(IC3-Pad25)">
+      <node ref="IC3" pin="25" pinfunction="SCLK" pintype="input"/>
+      <node ref="RN1" pin="2" pinfunction="R2.1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(IC3-Pad26)">
+      <node ref="IC3" pin="26" pinfunction="SDO-0" pintype="output"/>
+      <node ref="RN1" pin="1" pinfunction="R1.1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(IC3-Pad29)">
+      <node ref="IC3" pin="29" pinfunction="RST/" pintype="input"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="71" name="SPI_ADC_CNV">
+      <node ref="P1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="RN1" pin="5" pinfunction="R4.2" pintype="passive"/>
+    </net>
+    <net code="72" name="SPI_MISO">
+      <node ref="P1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="RN1" pin="8" pinfunction="R1.2" pintype="passive"/>
+    </net>
+    <net code="73" name="SPI_MOSI">
+      <node ref="P1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="RN1" pin="6" pinfunction="R3.2" pintype="passive"/>
+    </net>
+    <net code="74" name="SPI_SCK">
+      <node ref="P1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="RN1" pin="7" pinfunction="R2.2" pintype="passive"/>
+    </net>
+    <net code="75" name="unconnected-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(IC1-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(IC2-Pad3)">
+      <node ref="IC2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(IC2-Pad10)">
+      <node ref="IC2" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(IC3-Pad22)">
+      <node ref="IC3" pin="22" pinfunction="ALERT" pintype="output"/>
+    </net>
+    <net code="80" name="unconnected-(IC3-Pad27)">
+      <node ref="IC3" pin="27" pinfunction="SDO-1" pintype="output"/>
+    </net>
+    <net code="81" name="unconnected-(IC3-Pad28)">
+      <node ref="IC3" pin="28" pinfunction="READY" pintype="output"/>
+    </net>
+    <net code="82" name="unconnected-(IC4-Pad10)">
+      <node ref="IC4" pin="10" pinfunction="IN1LP" pintype="input"/>
+    </net>
+    <net code="83" name="unconnected-(IC4-Pad11)">
+      <node ref="IC4" pin="11" pinfunction="IN1LM" pintype="input"/>
+    </net>
+    <net code="84" name="unconnected-(IC4-Pad12)">
+      <node ref="IC4" pin="12" pinfunction="IN1RP" pintype="input"/>
+    </net>
+    <net code="85" name="unconnected-(IC4-Pad13)">
+      <node ref="IC4" pin="13" pinfunction="IN1RM" pintype="input"/>
+    </net>
+    <net code="86" name="unconnected-(IC4-Pad15)">
+      <node ref="IC4" pin="15" pinfunction="MICBIAS" pintype="power_out"/>
+    </net>
+    <net code="87" name="unconnected-(IC4-Pad20)">
+      <node ref="IC4" pin="20" pinfunction="HPLCOM" pintype="output"/>
+    </net>
+    <net code="88" name="unconnected-(IC4-Pad22)">
+      <node ref="IC4" pin="22" pinfunction="HPRCOM" pintype="output"/>
+    </net>
+    <net code="89" name="unconnected-(P1-Pad1)">
+      <node ref="P1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="90" name="unconnected-(P1-Pad3)">
+      <node ref="P1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(P1-Pad17)">
+      <node ref="P1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(P1-Pad18)">
+      <node ref="P1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="93" name="unconnected-(P1-Pad19)">
+      <node ref="P1" pin="19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="94" name="unconnected-(P1-Pad20)">
+      <node ref="P1" pin="20" pinfunction="Pin_20" pintype="passive"/>
+    </net>
+    <net code="95" name="unconnected-(P1-Pad21)">
+      <node ref="P1" pin="21" pinfunction="Pin_21" pintype="passive"/>
+    </net>
+    <net code="96" name="unconnected-(P1-Pad23)">
+      <node ref="P1" pin="23" pinfunction="Pin_23" pintype="passive"/>
+    </net>
+    <net code="97" name="unconnected-(P1-Pad25)">
+      <node ref="P1" pin="25" pinfunction="Pin_25" pintype="passive"/>
+    </net>
+    <net code="98" name="unconnected-(P1-Pad27)">
+      <node ref="P1" pin="27" pinfunction="Pin_27" pintype="passive"/>
+    </net>
+    <net code="99" name="unconnected-(P1-Pad30)">
+      <node ref="P1" pin="30" pinfunction="Pin_30" pintype="passive"/>
+    </net>
+    <net code="100" name="unconnected-(P1-Pad31)">
+      <node ref="P1" pin="31" pinfunction="Pin_31" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(P1-Pad32)">
+      <node ref="P1" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(P1-Pad34)">
+      <node ref="P1" pin="34" pinfunction="Pin_34" pintype="passive"/>
+    </net>
+    <net code="103" name="unconnected-(P1-Pad35)">
+      <node ref="P1" pin="35" pinfunction="Pin_35" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(P2-Pad1)">
+      <node ref="P2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(P2-Pad2)">
+      <node ref="P2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(P2-Pad3)">
+      <node ref="P2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="107" name="unconnected-(P2-Pad4)">
+      <node ref="P2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="108" name="unconnected-(P2-Pad5)">
+      <node ref="P2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(P2-Pad6)">
+      <node ref="P2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="110" name="unconnected-(P2-Pad7)">
+      <node ref="P2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(P2-Pad8)">
+      <node ref="P2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="112" name="unconnected-(P2-Pad9)">
+      <node ref="P2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(P2-Pad10)">
+      <node ref="P2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="114" name="unconnected-(P2-Pad11)">
+      <node ref="P2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(P2-Pad12)">
+      <node ref="P2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="116" name="unconnected-(P2-Pad13)">
+      <node ref="P2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(P2-Pad14)">
+      <node ref="P2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="118" name="unconnected-(P2-Pad16)">
+      <node ref="P2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="119" name="unconnected-(P2-Pad17)">
+      <node ref="P2" pin="17" pinfunction="Pin_17" pintype="passive"/>
+    </net>
+    <net code="120" name="unconnected-(P2-Pad18)">
+      <node ref="P2" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="121" name="unconnected-(P2-Pad19)">
+      <node ref="P2" pin="19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="122" name="unconnected-(P2-Pad20)">
+      <node ref="P2" pin="20" pinfunction="Pin_20" pintype="passive"/>
+    </net>
+    <net code="123" name="unconnected-(P2-Pad22)">
+      <node ref="P2" pin="22" pinfunction="Pin_22" pintype="passive"/>
+    </net>
+    <net code="124" name="unconnected-(P2-Pad23)">
+      <node ref="P2" pin="23" pinfunction="Pin_23" pintype="passive"/>
+    </net>
+    <net code="125" name="unconnected-(P2-Pad24)">
+      <node ref="P2" pin="24" pinfunction="Pin_24" pintype="passive"/>
+    </net>
+    <net code="126" name="unconnected-(P2-Pad25)">
+      <node ref="P2" pin="25" pinfunction="Pin_25" pintype="passive"/>
+    </net>
+    <net code="127" name="unconnected-(P2-Pad27)">
+      <node ref="P2" pin="27" pinfunction="Pin_27" pintype="passive"/>
+    </net>
+    <net code="128" name="unconnected-(P2-Pad28)">
+      <node ref="P2" pin="28" pinfunction="Pin_28" pintype="passive"/>
+    </net>
+    <net code="129" name="unconnected-(P2-Pad29)">
+      <node ref="P2" pin="29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="130" name="unconnected-(P2-Pad31)">
+      <node ref="P2" pin="31" pinfunction="Pin_31" pintype="passive"/>
+    </net>
+    <net code="131" name="unconnected-(P2-Pad33)">
+      <node ref="P2" pin="33" pinfunction="Pin_33" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(P2-Pad35)">
+      <node ref="P2" pin="35" pinfunction="Pin_35" pintype="passive"/>
+    </net>
+    <net code="133" name="unconnected-(P2-Pad36)">
+      <node ref="P2" pin="36" pinfunction="Pin_36" pintype="passive"/>
+    </net>
+  </nets>
+</export>
