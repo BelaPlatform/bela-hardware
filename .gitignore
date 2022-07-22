@@ -2,3 +2,5 @@
 .*.sw?
 *.b#?
 *.s#?
+*-backups
+*.bak
