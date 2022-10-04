@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "bela_cape-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/bela_cape-eagle-import.kicad_sym")(options "")(descr ""))
+)
