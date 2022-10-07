@@ -3536,8 +3536,17 @@
     (path "/c174e798-0d4a-4ee5-a279-22c30e2ae073/94bf6466-d933-48e7-bf83-664586f33725"
       (reference "#PWR057") (unit 1) (value "GNDD") (footprint "")
     )
+    (path "/c174e798-0d4a-4ee5-a279-22c30e2ae073/22a36444-523b-40cd-b3ba-d66b323d4cbc"
+      (reference "#PWR0101") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/a5961cea-e548-4a75-b95c-d4bc8b6ece85"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c174e798-0d4a-4ee5-a279-22c30e2ae073/d6a1e53c-bd8c-4af0-8ce6-f077aff85f07"
+      (reference "#PWR0103") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/c174e798-0d4a-4ee5-a279-22c30e2ae073/aadd63db-eaeb-4266-a8c2-54110416f13c"
+      (reference "#PWR0104") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/fa089937-b07b-49ce-a334-57f401713542"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
@@ -3613,6 +3622,9 @@
     )
     (path "/ccc90cba-37a2-450c-9fab-b7472fcd4e10/e8835d27-5c8f-431e-9daa-d0b815a50334"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c174e798-0d4a-4ee5-a279-22c30e2ae073/b2758721-3c0e-4941-a062-22e8ce2923aa"
+      (reference "#PWR0130") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/ccc90cba-37a2-450c-9fab-b7472fcd4e10/9f567b33-799b-4be0-86b5-9c8257604400"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
@@ -3907,6 +3919,18 @@
     )
     (path "/05937d23-bdcc-42e0-8c3e-39fa985b98f2"
       (reference "J11") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/c174e798-0d4a-4ee5-a279-22c30e2ae073/ecbbc5b5-7507-435e-80f3-e5b72312658e"
+      (reference "J12") (unit 1) (value "Conn_01x03") (footprint "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical")
+    )
+    (path "/c174e798-0d4a-4ee5-a279-22c30e2ae073/d41c4e43-b85b-482e-8143-06c1fa4f3d96"
+      (reference "J13") (unit 1) (value "Conn_01x03") (footprint "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical")
+    )
+    (path "/c174e798-0d4a-4ee5-a279-22c30e2ae073/349a4925-f562-45ce-a147-e568ca325442"
+      (reference "J14") (unit 1) (value "Conn_01x03") (footprint "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical")
+    )
+    (path "/c174e798-0d4a-4ee5-a279-22c30e2ae073/047ea503-e880-489d-812f-3d0035e438a2"
+      (reference "J15") (unit 1) (value "Conn_01x03") (footprint "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical")
     )
     (path "/dd1db79d-77ca-4802-9ac0-4286dd4d6f0d"
       (reference "P1") (unit 1) (value "BeagleBone_Black_Header") (footprint "Bela:BeagleBone_Black_Sockets_Board_outline")
