@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -119,7 +119,8 @@
       },
       "track_widths": [
         0.0,
-        0.2
+        0.2,
+        0.3
       ],
       "via_dimensions": [
         {
@@ -391,8 +392,7 @@
           "/Audio Codec/AUD_HPLOUT",
           "/Audio Codec/AUD_HPROUT",
           "GND",
-          "GNDA",
-          "GNDD"
+          "GNDA"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
