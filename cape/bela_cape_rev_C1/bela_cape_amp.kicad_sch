@@ -299,11 +299,11 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+5VP" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+5V" (id 1) (at 0 3.556 0)
+      (property "Value" "+5VP" (id 1) (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
@@ -315,10 +315,10 @@
       (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (id 5) (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+5VP\"" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+5V_0_1"
+      (symbol "+5VP_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -344,9 +344,9 @@
           (fill (type none))
         )
       )
-      (symbol "+5V_1_1"
+      (symbol "+5VP_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
+          (name "+5VP" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -744,20 +744,20 @@
     (pin "1" (uuid fbbf41dc-44d8-4a04-8fc8-c9ee4a9da490))
   )
 
-  (symbol (lib_id "power:+5V") (at 83.82 27.94 0) (unit 1)
+  (symbol (lib_id "power:+5VP") (at 83.82 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 40dc4dd6-803e-4da8-9a03-c94c4fe33765)
-    (property "Reference" "#PWR028" (id 0) (at 83.82 31.75 0)
+    (uuid 336155f3-725b-4fdb-88c3-38ef43468eed)
+    (property "Reference" "#PWR0157" (id 0) (at 83.82 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (id 1) (at 83.82 24.3642 0))
+    (property "Value" "+5VP" (id 1) (at 83.82 24.3642 0))
     (property "Footprint" "" (id 2) (at 83.82 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 83.82 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a8d05b4-e9d2-4ec4-8344-7fb7efbd8e60))
+    (pin "1" (uuid 850fa9f3-a7ce-4f4c-aba1-380355fc6f87))
   )
 
   (symbol (lib_id "Device:R") (at 52.07 40.64 270) (unit 1)
