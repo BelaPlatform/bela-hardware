@@ -55,7 +55,19 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|147550000|103400000|8f23c153-60b1-4be5-aa2c-b8543d0fcca8|2365bd97-3187-4d24-8950-a534a011eaee",
+        "clearance|147550000|103900000|6a08257d-8d5d-4997-b5fe-10e04c21b3bd|2365bd97-3187-4d24-8950-a534a011eaee",
+        "clearance|162800000|105070000|ea9a0a66-90a8-4b7f-801c-104b48ebf2a8|260175e8-23ac-4c13-a979-d6823f752e99",
+        "clearance|162820000|110070000|c70a1801-9b40-47c4-8b52-ace8d23e1175|3fa14fff-ea39-4dd9-9a2b-3e7ec8b8d173",
+        "clearance|165328600|105013600|09c250c9-90e7-496c-b37c-ab2e9e0d23bb|260175e8-23ac-4c13-a979-d6823f752e99",
+        "clearance|165328600|105070000|b2c029aa-ffc4-4b81-afac-1724778dc8c2|260175e8-23ac-4c13-a979-d6823f752e99",
+        "clearance|165328600|110070000|dd68b1bc-7f0d-476a-9d83-d9027ad0cf67|3fa14fff-ea39-4dd9-9a2b-3e7ec8b8d173",
+        "clearance|165328600|110093600|d3fb2df9-1d89-4651-a9fb-3190e1b0269d|3fa14fff-ea39-4dd9-9a2b-3e7ec8b8d173",
+        "courtyards_overlap|146469999|105299999|c2283f30-1c90-4607-b2c0-090912612d04|f0cf1af5-bf87-4798-8de1-345c3d10b181",
+        "courtyards_overlap|156022234|85930711|783d1351-54f2-42b8-962b-e9b6448a9295|eb59c0fc-23f8-464f-847d-c5ac6e452b7c",
+        "courtyards_overlap|163528601|100673601|8497ad85-4b8b-4fa6-a03c-22703e7c5e53|8c939fd5-a4c7-49e0-9d9a-7e049f05d222"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -120,7 +132,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.3
+        0.3,
+        0.5
       ],
       "via_dimensions": [
         {
