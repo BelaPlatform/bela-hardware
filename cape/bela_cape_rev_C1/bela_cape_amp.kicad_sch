@@ -767,7 +767,7 @@
     (in_bom yes) (on_board yes)
     (uuid 54328fb4-29b1-4bda-8020-019de83cd549)
     (property "Reference" "R3" (id 0) (at 55.88 73.66 90))
-    (property "Value" "4.7k" (id 1) (at 60.96 73.66 90))
+    (property "Value" "100k" (id 1) (at 60.96 73.66 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 56.642 73.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )

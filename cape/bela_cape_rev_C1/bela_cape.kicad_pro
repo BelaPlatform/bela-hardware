@@ -66,7 +66,8 @@
         "clearance|165328600|110093600|d3fb2df9-1d89-4651-a9fb-3190e1b0269d|3fa14fff-ea39-4dd9-9a2b-3e7ec8b8d173",
         "courtyards_overlap|146469999|105299999|c2283f30-1c90-4607-b2c0-090912612d04|f0cf1af5-bf87-4798-8de1-345c3d10b181",
         "courtyards_overlap|156022234|85930711|783d1351-54f2-42b8-962b-e9b6448a9295|eb59c0fc-23f8-464f-847d-c5ac6e452b7c",
-        "courtyards_overlap|163528601|100673601|8497ad85-4b8b-4fa6-a03c-22703e7c5e53|8c939fd5-a4c7-49e0-9d9a-7e049f05d222"
+        "courtyards_overlap|163528601|100673601|8497ad85-4b8b-4fa6-a03c-22703e7c5e53|8c939fd5-a4c7-49e0-9d9a-7e049f05d222",
+        "courtyards_overlap|163528601|100673601|8c939fd5-a4c7-49e0-9d9a-7e049f05d222|8497ad85-4b8b-4fa6-a03c-22703e7c5e53"
       ],
       "meta": {
         "filename": "board_design_settings.json",
