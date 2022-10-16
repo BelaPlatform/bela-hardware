@@ -41,9 +41,9 @@
 
   (setup
     (stackup
-      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.SilkS" (type "Top Silk Screen") (color "White"))
       (layer "F.Paste" (type "Top Solder Paste"))
-      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Black") (thickness 0.01))
       (layer "F.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 1" (type "core") (thickness 0.068) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "In1.Cu" (type "copper") (thickness 0.035))
@@ -51,9 +51,9 @@
       (layer "In2.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 3" (type "core") (thickness 0.068) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.035))
-      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
-      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
       (copper_finish "None")
       (dielectric_constraints no)
     )
@@ -2532,10 +2532,15 @@
       (net 6 "GND") (pinfunction "K1") (pintype "input") (tstamp a96318c5-6d34-4a90-96ba-e6b1fabca2e3))
     (pad "4" smd rect (at -0.425 0.725 90) (size 0.65 0.85) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "GND") (pinfunction "K2") (pintype "input") (tstamp 859197e5-b874-4452-8b1c-468daa2db79b))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-C19HE1WT.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-C19HE1WT.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${BELA_3D_MODELS_DIR}/3d-library.3dshapes/LTST-C19HE1WT--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -3232,6 +3237,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${BELA_3D_MODELS_DIR}/3d-library.3dshapes/PTS810SJG250SMTRLFS.stp"
+      (offset (xyz 0 0 1.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -38132,7 +38142,7 @@
   (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 3100ffbe-cd76-4867-8641-771d817344e6) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.2)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
