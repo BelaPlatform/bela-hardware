@@ -3533,6 +3533,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${BELA_3D_MODELS_DIR}/3d-library.3dshapes/PAM8406ER_DIO.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
@@ -4404,6 +4409,11 @@
     (pad "33" smd rect (at 0 0 270) (size 3.5 3.5) (layers "B.Cu" "B.Mask")
       (net 16 "GNDA") (pinfunction "GND") (pintype "power_in") (tstamp cb8697fa-0534-4b43-8df7-8167183bc69b))
     (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${BELA_3D_MODELS_DIR}/3d-library.3dshapes/RHB0032E.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5943,6 +5953,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${BELA_3D_MODELS_DIR}/3d-library.3dshapes/QFN16_3X3_ONS.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Inductor_SMD:L_0603_1608Metric" (layer "B.Cu")
@@ -6732,6 +6747,11 @@
     (pad "17" smd rect (at 0 0 270) (size 1.7 1.7) (layers "B.Cu" "B.Mask")
       (net 16 "GNDA") (pinfunction "EP") (pintype "passive") (tstamp 4833d54b-4a49-4388-b489-5c8537b9472a))
     (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${BELA_3D_MODELS_DIR}/3d-library.3dshapes/QFN16_3X3_ONS.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
