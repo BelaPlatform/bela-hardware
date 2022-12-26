@@ -1,0 +1,19 @@
+{
+	"layout": {
+		"type": "grid",
+		"rows": 6,
+		"cols": 7,
+		"space": "3mm"
+	},
+	"tabs": {
+		"type": "fixed",
+		"width": "5mm"
+	},
+	"cuts": {
+		"type": "vcuts",
+		"offset": "-0.35mm"
+	},
+	"post": {
+		"millradius": "1mm"
+	}
+}
