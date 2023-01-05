@@ -6,7 +6,7 @@ These PCB designs have been created in and are editable with Cadsoft EAGLE (http
 
 ## Licensing
 
-The hardware designs in this repo are licensed under a Creative Commons Attribtion Sharealike license, or [CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/). This means you are free edit and use these designs, as long as you agree to supply credit and release your results under the same license. [Read about CC-BY-SA here](http://creativecommons.org/licenses/by-sa/3.0/).
+The hardware designs in this repo are licensed under a Creative Commons Attribution Sharealike license, or [CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/). This means you are free edit and use these designs, as long as you agree to supply credit and release your results under the same license. [Read about CC-BY-SA here](http://creativecommons.org/licenses/by-sa/3.0/).
 
 If you want to create a commercial product using the Bela hardware designs and don't want to release it under the same license, you will need a commercial license. Drop us an email at info@bela.io to discuss your project, and we can suggest a commercial license to fit your project's scope and scale.
 
