@@ -345,6 +345,8 @@
           (stroke (width 0) (type default))
           (fill (type outline))
         )
+      )
+      (symbol "ES9080Q_1_1"
         (polyline
           (pts
             (xy -17.78 30.48)
@@ -354,7 +356,7 @@
             (xy -17.78 30.48)
           )
           (stroke (width 0.1524) (type default))
-          (fill (type none))
+          (fill (type background))
         )
       )
     )

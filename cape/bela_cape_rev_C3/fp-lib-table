@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "bela_cape")(type "KiCad")(uri "$(KIPRJMOD)/bela_cape.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "bela_cape")(type "KiCad")(uri "$(KIPRJMOD)/../../bela-kicad-library/footprints/Bela.pretty")(options "")(descr ""))
 )

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Bela")(type "KiCad")(uri "${KIPRJMOD}/../../bela-kicad-library/symbols/Bela.kicad_sym")(options "")(descr ""))
+)

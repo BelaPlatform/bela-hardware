@@ -165,7 +165,7 @@
       (symbol "ADS8168_0_1"
         (rectangle (start -17.78 -8.89) (end 15.24 -50.8)
           (stroke (width 0.1524) (type default))
-          (fill (type none))
+          (fill (type background))
         )
       )
       (symbol "ADS8168_1_1"
@@ -205,11 +205,11 @@
           (name "ADC-INP" (effects (font (size 1.27 1.27))))
           (number "17" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at -22.86 -45.72 0) (length 5.08)
+        (pin output line (at -22.86 -45.72 0) (length 5.08)
           (name "MUXOUT-P" (effects (font (size 1.27 1.27))))
           (number "18" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at -22.86 -43.18 0) (length 5.08)
+        (pin output line (at -22.86 -43.18 0) (length 5.08)
           (name "MUXOUT-M" (effects (font (size 1.27 1.27))))
           (number "19" (effects (font (size 1.27 1.27))))
         )
