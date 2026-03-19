@@ -2230,7 +2230,7 @@
 		(remove_unused_layers no)
 		(uuid "e94a0400-76fa-480a-95d6-7ba5b477abc9")
 	)
-	(pad "AGND" thru_hole oval
+	(pad "GNDA" thru_hole oval
 		(at -1.3571 8.8304 270)
 		(size 1.7 1.7)
 		(drill 1)

@@ -9780,7 +9780,7 @@
 			)
 		)
 		(property "Description" "Embedded low latency, low jitter audio computing platform"
-			(at 2.286 -13.208 0)
+			(at 2.794 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
