@@ -1,0 +1,531 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4968938b-701b-4ab5-a0b0-6cd492244b4c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 128.27 60.96) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb9b3c6-2510-4fd9-9a8c-6c7b2fa50085")
+	)
+	(wire
+		(pts
+			(xy 118.11 60.96) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b228e5c6-8a8b-439e-9578-dc0d3fbb2f42")
+	)
+	(hierarchical_label "FROM_MIC"
+		(shape input)
+		(at 110.49 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2523f0b0-7698-4cae-8227-3b6c815c7d76")
+	)
+	(hierarchical_label "TO_GEM"
+		(shape output)
+		(at 140.97 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39ff3d51-b10a-4bf7-bef0-f73fa71c8cf1")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10706021-2733-47d3-a497-6a78f8778047")
+		(property "Reference" "C1"
+			(at 124.46 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 124.46 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 128.27 59.9948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7766e93-aa86-4dba-8fb3-755b79ca8e67")
+		)
+		(pin "1"
+			(uuid "1d8f1bdb-78c8-41f7-8c59-178f098b94fb")
+		)
+		(instances
+			(project "bela_mini_multi_pb2_wing_bottom"
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/18650592-fa7d-4ba0-947c-0326b8a8285e"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/1c8a947e-67eb-4706-ac7e-90d148a145f0"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/47c9e972-0ec2-41a0-a990-109e7f050cfa"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/64da9db9-8a17-4073-b440-305248003f61"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/86721de4-553e-4991-94b0-bc632e2beb0a"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/b9099aaf-1f25-46a8-9d32-dd9633cb9a2e"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/d60ee2e5-61e6-4f32-a907-8aa992c94bb9"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/f9aff1f0-350f-4a30-aafb-3812ada13c74"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 114.3 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d285c6f9-1da0-4ef2-9312-645b39cec247")
+		(property "Reference" "FB1"
+			(at 114.2492 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 114.2492 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 114.3 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1299e029-8add-4651-9468-0837d6162a3d")
+		)
+		(pin "1"
+			(uuid "a22a7301-3531-4f19-beb9-3e9e0cf203a6")
+		)
+		(instances
+			(project "bela_mini_multi_pb2_wing_bottom"
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/18650592-fa7d-4ba0-947c-0326b8a8285e"
+					(reference "FB8")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/1c8a947e-67eb-4706-ac7e-90d148a145f0"
+					(reference "FB3")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/47c9e972-0ec2-41a0-a990-109e7f050cfa"
+					(reference "FB7")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/64da9db9-8a17-4073-b440-305248003f61"
+					(reference "FB6")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/86721de4-553e-4991-94b0-bc632e2beb0a"
+					(reference "FB5")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/b9099aaf-1f25-46a8-9d32-dd9633cb9a2e"
+					(reference "FB4")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/d60ee2e5-61e6-4f32-a907-8aa992c94bb9"
+					(reference "FB2")
+					(unit 1)
+				)
+				(path "/81f61134-d2ec-4fd3-8072-41343fb218ad/f9aff1f0-350f-4a30-aafb-3812ada13c74"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
